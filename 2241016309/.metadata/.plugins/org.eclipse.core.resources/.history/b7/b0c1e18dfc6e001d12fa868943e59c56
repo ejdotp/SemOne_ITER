@@ -1,0 +1,14 @@
+
+public class QuestionFive {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String var1="Hey Rishi, ";
+		String var2="Good Morning";
+		String var3="Good Morning";
+		System.out.print(var1);
+		System.out.print(var2);
+		System.out.print(var3);
+	}
+
+}

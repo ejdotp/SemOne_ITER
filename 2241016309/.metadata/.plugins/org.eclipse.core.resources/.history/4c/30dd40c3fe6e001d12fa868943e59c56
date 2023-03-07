@@ -1,0 +1,11 @@
+
+public class QuestionSeven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int var1=12345;
+		int var2=67891;
+		
+	}
+
+}

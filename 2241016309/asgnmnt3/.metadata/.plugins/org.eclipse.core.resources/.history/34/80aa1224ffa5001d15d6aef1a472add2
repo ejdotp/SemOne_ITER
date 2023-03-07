@@ -1,0 +1,31 @@
+/*WAP to calculate and display the factorial of all numbers between m and n (where m < n, m
+> 0, n > 0)
+Sample run:
+Enter the value of m: 2
+Enter the value of n: 5
+Factorial of 2 is: 2
+Factorial of 3 is: 6
+Factorial of 4 is: 24
+Factorial of 5 is: 120*/
+package assignmentfive;
+import java.util.*;
+public class q4 {
+
+	public static void main(String[] args) {
+		int x, y, f = 1;
+		Scanner sc=new Scanner (System.in);
+		System.out.print("Enter first number: ");
+		x=sc.nextInt();
+		System.out.print("Enter second number: ");
+		y=sc.nextInt();
+		while(x<y) {
+			for (int i=1;i<=x;i++) {
+				f*=i;
+				System.out.println("Factorial of "+x+" is: "+f);
+			}
+			x++;
+		}
+
+	}
+
+}
