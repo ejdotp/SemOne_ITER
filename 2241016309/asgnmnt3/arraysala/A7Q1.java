@@ -11,7 +11,7 @@ class A7Q1
         int sum = 0;
         for(int i=0; i<N; i++)
         {
-            int rad = (Math.random()*N+1);
+            int rad = (int)(Math.random()*N+1);
             Grr[i] = rad;
             sum += rad;
         }
